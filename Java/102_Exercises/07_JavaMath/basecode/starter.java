@@ -1,6 +1,6 @@
 /*
- *	Author:  
- *  Date: 
+ *	Author:  Max Leerhuber
+ *  Date: 9/3/26
 */
 
 class starter {
@@ -17,6 +17,9 @@ class starter {
  
         System.out.println("Apples picked: " + applesPicked);
         System.out.println("Box weight: " + boxWeightLbs);
+
+        int applesPicked = 12
+        double boxWeightLbs = 2.5
         // Expected:
         // Apples picked: 12
         // Box weight: 2.5
