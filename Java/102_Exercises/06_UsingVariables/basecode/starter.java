@@ -19,15 +19,19 @@ class starter {
 
 	public static void helloName(String name){
 		// Your Code Goes here!
+		System.out.print("Hello ");
+		System.out.print(name);
+		System.out.println("!");
 	}
 	
 	public static void makeAbba(String a, String b){
 		// Your Code Goes here!
-		
+		System.out.println(a + b + b + a);
 	}
 	
 	public static void pythag(int a, int b){
 		// Your Code Goes here!
+		System.out.println((a * a) + (b * b));
 	}
 	
 	
