@@ -16,10 +16,10 @@ class starter {
 		int y = ((int)(Math.random()*100.01) + 1);
 		System.out.println(y);
 		System.out.println(" ");
-		double z = Math.random() * 3.5 + 2.5;
+		double z = Math.random() * 3.4 + 2.5;
 		System.out.println(z);
 		System.out.println(" ");
-		double q = Math.random() * 589 + 14;
+		double q = Math.random() * 588 + 14;
 		System.out.println(q);
 	}
 }

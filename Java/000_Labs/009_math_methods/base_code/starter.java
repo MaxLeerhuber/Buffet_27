@@ -13,7 +13,7 @@ class starter {
 		System.out.println(Math.sqrt (3 * 8 + 31 % 7));
 		System.out.println(Math.pow (37 / 3, 35 % 21));
 		System.out.println(Math.max(Math.pow( 2,14%3) , Math.sqrt ( 2*6) ));
-		System.out.println("put in values for x and y - x first and y second.");
+		System.out.println("put in values for x and y ---- x first and y second.");
 		Scanner sc = new Scanner(System.in);
 		int x = sc.nextInt();
 		int y = sc.nextInt();
