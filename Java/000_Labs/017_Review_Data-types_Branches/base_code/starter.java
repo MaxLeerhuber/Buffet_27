@@ -87,6 +87,7 @@ class starter {
 		else{
 			System.out.println("You have spent " + (strength + dexterity + intelligence + charisma) + " points on your traits.");
 		}
+		totalPoints = totalPoints - charisma;
 		System.out.println("You have " + totalPoints + " points leftover.");
 		System.out.println("Your name is " + name + ", Your character's title is " + title + ", Your role is " + role);
 		System.out.println("You have spent " + strength + " points on Strength, " + dexterity + " points on Dexterity, " + intelligence + " points on Intelligence, and " + charisma + " points on Charisma.");
