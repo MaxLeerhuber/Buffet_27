@@ -26,5 +26,36 @@ class starter {
 			w = 0;
 			h++;
 		}
+		System.out.println("----------------------------");
+		System.out.println("Now enter an integer: ");
+		int num = sc.nextInt();
+		int i = 0;
+		String stars = "*";
+		while (i != num){
+			System.out.println(stars);
+			i++;
+			stars = stars + "*";
+
+		}
+		System.out.println("----------------------------");
+		System.out.println("Now enter another integer: ");
+		int num2 = sc.nextInt();
+		int i2 = 0;
+		int i3 = 0;
+		String stars2 = "*";
+		String space = "";
+		while (i2 != num2){
+			while (i3 != num2 - i2){
+				space = space + " ";
+				i3++;
+			}
+			System.out.println(space + stars2);
+			i2++;
+			stars2 = stars2 + "*";
+			space = "";
+			i3 = 0;
+
+		}
+		
 	}
 }
