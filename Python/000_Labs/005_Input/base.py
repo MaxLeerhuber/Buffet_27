@@ -1,0 +1,5 @@
+name = input("Enter your name: ")
+print("Happy Birthday to you!")
+print("Happy Birthday to you!")
+print("Happy Birthday dear " + name + "!")
+print("Happy Birthday to you!")
