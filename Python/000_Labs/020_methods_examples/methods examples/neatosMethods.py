@@ -11,5 +11,7 @@ def hB2UName(person):
                 print("Happy BDay 2 u,")
                 print("Happy BDay dear "+person)
                 print("Happy BDay 2 u!")
+def hello(y):
+    print("Hello "+y)
 
 
